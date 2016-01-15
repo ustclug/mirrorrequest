@@ -1,6 +1,6 @@
 # 中国科大开源镜像站（USTC Mirrors）新镜像及新功能申请
 
-如果您希望 [http://mirrors.ustc.edu.cn/](USTC mirrors) 增加新镜像或功能，或者修改某些镜像的配置，请在 issue 页面提交。
+如果您希望 [USTC mirrors](http://mirrors.ustc.edu.cn/) 增加新镜像或功能，或者修改某些镜像的配置，请在 issue 页面提交。
 
 提交 issue 后，您可以召唤小伙伴们通过评论等方式参与该 issue。USTC LUG 会接纳关注度比较高的镜像/功能申请。
  
@@ -16,3 +16,18 @@
 
 之后记得叫小伙伴来顶一顶～
 
+# University of Science and Technology of China Open Source Mirrors New Mirror Request
+
+If you want us [USTC mirrors](http://mirrors.ustc.edu.cn/) to add some new mirror or feature or modify the configration of exist mirror, plsese submit an [**issue**](https://github.com/ustclug/mirrorrequest/issues) in this repository. We will accept high vote project.
+
+## request format
+
+example:
+
+*title*  **[New] Parabola GNU/Linux-libre Sodtware repository and ISO image**
+
+Please provide the information below in body as far as possible:
+
+- Upstream URL
+- Introduction of the project
+- Why you hope us to add a mirror
