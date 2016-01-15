@@ -18,7 +18,7 @@
 
 # University of Science and Technology of China Open Source Mirrors New Mirror Request
 
-If you want us [USTC mirrors](http://mirrors.ustc.edu.cn/) to add some new mirror or feature or modify the configration of exist mirror, plsese submit an [**issue**](https://github.com/ustclug/mirrorrequest/issues) in this repository. We will accept high vote project.
+If you want [USTC mirrors](http://mirrors.ustc.edu.cn/) to add some new mirror or feature or modify the configration of exist mirror, plsese submit an [**issue**](https://github.com/ustclug/mirrorrequest/issues) in this repository. We will accept high vote project.
 
 ## request format
 
