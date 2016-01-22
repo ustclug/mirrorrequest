@@ -24,7 +24,7 @@ If you want [USTC mirrors](http://mirrors.ustc.edu.cn/) to add some new mirror o
 
 example:
 
-*title*  **[New] Parabola GNU/Linux-libre Sodtware repository and ISO image**
+*title*  **[New] Parabola GNU/Linux-libre Software repository and ISO image**
 
 Please provide the information below in body as far as possible:
 
