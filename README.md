@@ -37,7 +37,7 @@ Please provide the information below in body as far as possible:
 - Introduction of the project
 - Why you hope us to add a mirror
 
-# How to vote
+## How to vote
 
 Please use emoji reaction on Github Issue.
 Take this page  https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments for reference.
