@@ -16,6 +16,11 @@
 
 之后记得叫小伙伴来顶一顶～
 
+## 如何投票
+
+请在 Github Issue 页面使用 Emoji :+1: 表情来投票。
+请参考 https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments 这里的使用说明。
+
 # University of Science and Technology of China Open Source Mirrors New Mirror Request
 
 If you want [USTC mirrors](http://mirrors.ustc.edu.cn/) to add some new mirror or feature or modify the configration of exist mirror, plsese submit an [**issue**](https://github.com/ustclug/mirrorrequest/issues) in this repository. We will accept high vote project.
