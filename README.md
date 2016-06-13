@@ -1,8 +1,10 @@
-# 中国科大开源镜像站（USTC Mirrors）新镜像及新功能申请
+# 中国科大开源镜像站（[USTC Mirrors](http://mirrors.ustc.edu.cn/)）新镜像及新功能申请
 
-如果您希望 [USTC mirrors](http://mirrors.ustc.edu.cn/) 增加新镜像或功能，或者修改某些镜像的配置，请在 issue 页面提交。
+* 增加新镜像或功能
+* 修改镜像配置
+* 报告镜像站故障
 
-提交 issue 后，您可以召唤小伙伴们通过评论等方式参与该 issue。USTC LUG 会接纳关注度比较高的镜像/功能申请。
+[点此提交](https://github.com/ustclug/mirrorrequest/issues/new)
  
 ## 申请新镜像
 
@@ -14,12 +16,31 @@
 - 该项目的介绍
 - 为什么希望添加该镜像
 
-之后记得叫小伙伴来顶一顶～
+提交 issue 后，您可以召唤小伙伴们通过评论等方式参与该 issue。USTC LUG 会接纳关注度比较高的镜像申请。
 
-## 如何投票
+### 如何投票
 
 请在 Github Issue 页面使用 Emoji :+1: 表情来投票。
-请参考 https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments 这里的使用说明。
+请参考[这里](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments)的使用说明。
+
+## 修改镜像配置
+
+标题举例：[Modify]希望Rust源更新后改写toml文件,将链接指向本地
+
+请在正文中补充以下内容：
+
+* 需要修改的镜像名称
+* 具体的修改内容或方式
+* 修改原因
+
+## 报告镜像站故障
+
+请说明以下内容：
+
+* 故障镜像的名称
+* 首次观察到故障的时间
+* 故障描述
+* 修复建议（如果有）
 
 # University of Science and Technology of China Open Source Mirrors New Mirror Request
 
