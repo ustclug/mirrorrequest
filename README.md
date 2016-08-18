@@ -8,7 +8,7 @@
  
 ## 申请新镜像
 
-标题请使用这样的格式：*[New] Parabola GNU/Linux-libre 软件仓库和ISO镜像*。全英文也可以。总之，在标题简要说明一下这个镜像的内容，前面加上一个*[New]*。
+标题请使用这样的格式：*Parabola GNU/Linux-libre 软件仓库和ISO镜像*。全英文也可以。总之，在标题简要说明一下这个镜像的内容。
 
 正文中请尽量说明以下内容：
 
@@ -25,7 +25,7 @@
 
 ## 修改镜像配置
 
-标题举例：[Modify]希望Rust源更新后改写toml文件,将链接指向本地
+标题举例：希望Rust源更新后改写toml文件,将链接指向本地
 
 请在正文中补充以下内容：
 
@@ -50,7 +50,7 @@ If you want [USTC mirrors](http://mirrors.ustc.edu.cn/) to add some new mirror o
 
 example:
 
-*title*  **[New] Parabola GNU/Linux-libre Software repository and ISO image**
+*title*  **Parabola GNU/Linux-libre Software repository and ISO image**
 
 Please provide the information below in body as far as possible:
 
