@@ -4,7 +4,7 @@
 * 修改镜像配置
 * 报告镜像站故障
 
-[点此提交](https://github.com/ustclug/mirrorrequest/issues/new)
+[点此提交](https://github.com/ustclug/mirrorrequest/issues/new/choose)
  
 ## 申请新镜像
 
