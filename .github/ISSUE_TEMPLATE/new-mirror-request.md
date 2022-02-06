@@ -2,7 +2,7 @@
 name: New mirror request
 about: Submit a new mirror request
 title: ''
-labels: ''
+labels: needvote, new
 assignees: ''
 
 ---
