@@ -1,0 +1,14 @@
+name: issue
+
+on: push
+
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: rishabhgupta/git-action-issue@v2
+      id: Issue
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: 请求新镜像前必读（试行）
+        body: '*placeholder*'
