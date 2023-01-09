@@ -1,0 +1,48 @@
+name: Mirror request / 镜像请求
+description: Request a new mirror repository / 请求建立新的镜像仓库
+labels:
+  - new
+body:
+  - type: markdown
+    id: introduction
+    attributes:
+      value: |
+        欢迎向 USTC Mirror 提交新镜像请求。如果你希望 USTC 对某个开源项目设立镜像，请按以下模板填写。  
+        If you want to request USTC to setup a mirror repository for an open-source project, please submit your issue using the following template.
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: 先决条件 (Prerequisites)
+      options:
+        - label: |
+            我已确认这个镜像源从未在 [其他 issues](https://github.com/ustclug/mirrorrequest/issues) 中讨论过。  
+            I have checked that this repository has not been discussed in [other issues](https://github.com/ustclug/mirrorrequest/issues).
+          required: true
+        - label: | 
+            我已仔细阅读 [请求新镜像前必读](https://github.com/ustclug/mirrorrequest/issues/350)。  
+            I have CAREFULLY read the [mirroring rules](https://github.com/ustclug/mirrorrequest/issues/350).
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 项目介绍 (Project introduction)
+    validations:
+      required: true
+  - type: textarea
+    id: upstream
+    attributes:
+      label: 上游地址与镜像方法 (Upstream & mirroring method)
+    validations:
+      required: true
+  - type: input
+    id: mirror_size
+    attributes:
+      label: 镜像大小 (Mirror size)
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注 (Note)
+    validations:
+      required: false
