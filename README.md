@@ -16,12 +16,11 @@
 - 该项目的介绍
 - 为什么希望添加该镜像
 
-提交 issue 后，您可以召唤小伙伴们通过评论等方式参与该 issue。USTC LUG 会接纳关注度比较高的镜像申请。
-
 ### 如何投票
 
-请在 Github Issue 页面使用 Emoji :+1: 表情来投票。
-请参考[这里](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments)的使用说明。
+如果您希望添加的镜像已经存在，请在 Github Issue 页面使用 Emoji :+1: 表情来投票。 请参考[这里](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments)的使用说明。
+
+USTC LUG 会接纳关注度比较高的镜像申请。
 
 ## 修改镜像配置
 
