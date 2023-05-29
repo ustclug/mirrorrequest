@@ -1,0 +1,34 @@
+name: Count Reactions
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  issues:
+    types:
+      - reopened
+      - edited
+      - labeled
+
+jobs:
+  count-reactions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+
+    - name: Install dependencies
+      run: |
+        pip install PyGithub
+
+    - name: Count reactions
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run:
+        python scripts/count_reactions.py
+
