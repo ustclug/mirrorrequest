@@ -11,15 +11,15 @@ def count_reactions(token, repo_name):
 
     for issue in issues:
         reactions = issue.get_reactions()
-        count = 0
+        reaction_dates = set()
         for reaction in reactions:
             if reaction.content == "+1":
-                count += 1
-        reactions_count[issue.number] = count
+                reaction_dates.add(reaction.created_at.date())
+        reactions_count[issue.number] = len(reaction_dates)
 
     sorted_reactions_count = dict(sorted(reactions_count.items(), key=lambda item: item[1], reverse=True))
 
-    table = "* Votes:\n  | Title| Count |\n  | --- | --- |\n"
+    table = "* Votes:\n  | Title| Priority |\n  | --- | --- |\n"
     for issue_number, count in sorted_reactions_count.items():
         table += f"  | #{issue_number} | {count} |\n"
 
