@@ -22,12 +22,12 @@ def count_reactions(token, repo_name):
                 down_dates.add(date)
         reactions_count[issue.number] = (len(up_dates), len(down_dates))
 
-    sorted_reactions_count = sorted(reactions_count.items(), key=lambda item: (item[1][0] - item[1][1], item[0]), reverse=True)
+    sorted_reactions_count = sorted(reactions_count.items(), key=lambda item: (item[1][0] - item[1][1], -item[0]), reverse=True)
 
-    table = "## Votes\n\n| Title| Priority | Score |\n| --- | --- | --- |\n"
+    table = "* Votes:\n  \n  | Title | Priority | Score |\n  | --- | --- | --- |\n"
     for issue_number, (up_count, down_count) in sorted_reactions_count:
         score = up_count - down_count
-        table += f"| #{issue_number} | {score} | +{up_count}, -{down_count} |\n"
+        table += f"  | #{issue_number} | {score} | +{up_count}, -{down_count} |\n"
 
     repo.get_issue(366).edit(body=table)
 
