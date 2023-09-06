@@ -1,6 +1,9 @@
 name: Count Reactions
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '0 0 * * *'
   issues:
@@ -17,10 +20,10 @@ jobs:
       issues: write
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
 
     - name: Install dependencies
       run: |
@@ -30,5 +33,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run:
-        python scripts/count_reactions.py
-
+        python3 scripts/count_reactions.py
