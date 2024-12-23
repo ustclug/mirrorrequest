@@ -38,6 +38,9 @@ body:
     id: mirror_size
     attributes:
       label: 镜像大小 (Mirror size)
+      description: |
+        对于拥有 rsync 访问权限的上游，可以使用本仓库的 [rsync-size.py](https://github.com/ustclug/mirrorrequest/blob/master/rsync-size.py) 脚本获取仓库大小。
+        For upstreams with rsync access, you can use the [rsync-size.py](https://github.com/ustclug/mirrorrequest/blob/master/rsync-size.py) script in this repository to get the size.
     validations:
       required: false
   - type: textarea
